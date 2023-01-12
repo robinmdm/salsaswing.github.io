@@ -16,11 +16,11 @@ body {
   height: 100%;
 }
 
-header {
+/* header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-}
+} */
 
 .content {
   max-width: 1200px;
@@ -163,7 +163,16 @@ button {
   color: white !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .icons > img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .icons > img {
+  width: 25px;
+  height: 25px;
   margin-left: 5px;
 }
 
@@ -175,4 +184,5 @@ button {
   align-items: center;
   flex-direction: row;
   height: 40px;
+  justify-content: center;
 }
