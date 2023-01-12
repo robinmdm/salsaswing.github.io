@@ -1,14 +1,14 @@
 /* CSS styles */
 h1 {
-color: #CE5937;
+  color: #ce5937;
 }
 
-html { 
+html {
   height: 100%;
 }
 
 body {
-  color: #2C2C2C;
+  color: #2c2c2c;
   font-family: Helvetica;
   margin: 0 auto;
   display: flex;
@@ -17,9 +17,9 @@ body {
 }
 
 header {
-    #position: -webkit-sticky;
-    #position: sticky;
-    #top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .content {
@@ -27,35 +27,37 @@ header {
   margin: 0 auto;
 }
 
-a { color: #CE5937; }
+a {
+  color: #ce5937;
+}
 
 ul > li:nth-child(1) > a {
-padding-left: 0;
+  padding-left: 0;
 }
 
 .header {
   background-color: grey;
 }
 
-.header > div{
+.header > div {
   max-width: 1200px;
   margin: 0 auto;
 }
-  
-.header > nav > ul{
+
+.header > nav > ul {
   max-width: 1200px;
   margin: 0 auto;
-}  
+}
 
 .header > nav {
-    background-color: #dddddd;
+  background-color: #dddddd;
 }
 
 .vl {
   border-left: 2px solid black;
   border-radius: 1px;
   height: 22px;
-  border-color: #2C2C2C;;
+  border-color: #2c2c2c;
 }
 
 ul {
@@ -72,35 +74,35 @@ ul {
   nav {
     height: 13rem;
   }
-  
+
   ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 
-li {
-  padding-bottom: 5px;
-}
-  
+  li {
+    padding-bottom: 5px;
+  }
+
   .vl {
-    display:none;
+    display: none;
   }
 }
 
 .submenu ul {
-    color: #1a6eb6;
+  color: #1a6eb6;
 }
-  
+
 li a {
   padding: 8px;
 }
-  
+
 .footer {
-  background-color: grey; 
+  background-color: grey;
   margin: 20px 0 0 0;
   min-width: 100%;
   display: flex;
@@ -122,13 +124,13 @@ footer {
 
 button {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: #CE5937;
+  color: #ce5937;
   height: 50px;
   width: 100px;
 }
 
 @media screen and (max-width: 1200px) {
-    footer {
+  footer {
     max-width: 1200px;
     display: flex;
     align-items: start;
@@ -138,23 +140,23 @@ button {
     gap: 10px;
     justify-content: left;
     min-height: 250px;
-}
+  }
   button {
-  width: 250px;
-}
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-     button {
-  width: 100px;
-}
+  button {
+    width: 100px;
+  }
 }
 
 .icons {
   position: absolute;
   bottom: 0;
   right: 25px;
-  color: #CE5937;
+  color: #ce5937;
 }
 
 .icons > ul > * > a {
@@ -162,15 +164,15 @@ button {
 }
 
 .icons > img {
-margin-left: 5px;
+  margin-left: 5px;
 }
 
 .icons > ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-display: flex;
-align-items: center;
-flex-direction: row;
-height: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 40px;
 }
