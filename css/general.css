@@ -16,12 +16,6 @@ body {
   height: 100%;
 }
 
-/* header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-} */
-
 .content {
   max-width: 1200px;
   margin: 0 auto;
